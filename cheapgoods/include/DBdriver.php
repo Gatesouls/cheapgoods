@@ -4,6 +4,7 @@ class DBdriver {
     //methods
 
     //connect to Database
+    //it's not good to store info about DB connection here. Will be removed in future updates.
     function db_connect()
     {
         $result = new mysqli('$dbhost', '$dbusername', '$dbpassword', '$dbname');
